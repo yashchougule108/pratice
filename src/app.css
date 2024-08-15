@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+}
+.App {
+  display: flex;
+  margin: 50px;
+}
+.login {
+  border: solid 1px #949494;
+  border-radius: 15px;
+  margin: 40px;
+  padding: 80px;
+}
+.inp {
+  padding: 10px, 14px, 10px, 14px;
+  width: 359px;
+  height: 40px;
+  margin: 10px;
+  margin-left: 50px;
+  border-style: none;
+  border-radius: 16px;
+  border: 1.5px solid rgba(0, 0, 0, 0);
+  background: rgba(37, 78, 126, 0.09);
+  color: rgba(20, 32, 46, 0.4);
+}
+
+.btn {
+  margin: 10px;
+  width: 359px;
+  height: 40px;
+  margin-left: 50px;
+  color: white;
+  border-radius: 16px;
+  background: #f37d64;
+}
+.hed {
+  margin-left: 35px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.hed1 {
+  margin-left: 35px;
+  text-align: center;
+  font-size: 32px;
+}
+.img1 {
+  width: 600px;
+  height: 600px;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.form1{
+    text-align: center;
+}
