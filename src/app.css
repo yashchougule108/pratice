@@ -1,56 +1,92 @@
-.main {
+
+.app{
   display: flex;
+  width: Fill (1,440px)px;
+height: Fill (1,080px)px;
+padding: 20px;
+align-items: center;
+
 }
-.App {
+.imagecontainer{
+  width: 715px;
+height: 574px;
+margin: 40px;
+
+}
+
+.headings{
+  color: #1B2128;
+text-align: center;
+font-family:sans-serif;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.8px;
+}
+
+.desc{
+  color: #1B2128;
+text-align: center;
+font-family: sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 133.333% */
+letter-spacing: -0.075px;
+margin-bottom: 80px;
+margin-top: 10px;
+}
+
+.loginform{
   display: flex;
-  margin: 50px;
+  flex-direction: column;
+width: 595px;
+height: 798px;
+padding: 80px;
+justify-content: center;
+align-items: center;
+flex: 1 0 0;
+border-radius: 40px;
+border: 1px solid #949494;
+background: #F5F5F5;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+margin-top: 40px;
+margin-right: 40px;
+margin-bottom: 40px;
 }
-.login {
-  border: solid 1px #949494;
-  border-radius: 15px;
-  margin: 40px;
-  padding: 80px;
-}
-.inp {
-  padding: 10px, 14px, 10px, 14px;
-  width: 359px;
-  height: 40px;
-  margin: 10px;
-  margin-left: 50px;
-  border-style: none;
+.inputboxpass{
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 16px;
-  border: 1.5px solid rgba(0, 0, 0, 0);
+  border: 1.5px solid rgba(0, 0, 0, 0.00);
   background: rgba(37, 78, 126, 0.09);
-  color: rgba(20, 32, 46, 0.4);
-}
-
-.btn {
-  margin: 10px;
   width: 359px;
-  height: 40px;
-  margin-left: 50px;
-  color: white;
-  border-radius: 16px;
-  background: #f37d64;
+height: 40px;
+padding-left: 10px;
 }
-.hed {
-  margin-left: 35px;
-  text-align: center;
-  font-size: 15px;
+.inputbox{
+  border-radius: 16px;
+border: 1.5px solid rgba(0, 0, 0, 0.00);
+background: rgba(37, 78, 126, 0.09);
+width: 359px;
+height: 40px;
+padding-left: 10px;
+border-style: none;
+
 }
 
-.hed1 {
-  margin-left: 35px;
-  text-align: center;
-  font-size: 32px;
-}
-.img1 {
-  width: 600px;
-  height: 600px;
-  padding-top: 60px;
-  justify-content: center;
+.form{
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
-.form1{
-    text-align: center;
+.btn{
+  width: 359px;
+height: 40px;
+border-radius: 16px;
+background: #F37D64;
+color: white;
+border-style: hidden;
+
 }
